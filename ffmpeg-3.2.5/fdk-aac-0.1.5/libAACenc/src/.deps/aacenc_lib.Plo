@@ -1,0 +1,165 @@
+libAACenc/src/aacenc_lib.lo: libAACenc/src/aacenc_lib.cpp \
+ libAACenc/include/aacenc_lib.h libSYS/include/machine_type.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/assert.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/android/api-level.h \
+ libSYS/include/FDK_audio.h libSYS/include/machine_type.h \
+ libSYS/include/genericStds.h libAACenc/src/aacenc.h \
+ libFDK/include/common_fix.h libFDK/include/FDK_archdef.h \
+ libFDK/include/fixmul.h libFDK/include/x86/fixmul_x86.h \
+ libFDK/include/abs.h libFDK/include/x86/abs_x86.h libFDK/include/clz.h \
+ libFDK/include/x86/clz_x86.h libFDK/include/fixmadd.h \
+ libFDK/include/fixminmax.h libFDK/include/cplx_mul.h \
+ libFDK/include/common_fix.h libFDK/include/scale.h \
+ libSYS/include/genericStds.h libFDK/include/../src/scale.cpp \
+ libFDK/include/fixpoint_math.h libMpegTPEnc/include/tpenc_lib.h \
+ libMpegTPEnc/include/tp_data.h libFDK/include/FDK_bitstream.h \
+ libFDK/include/FDK_bitbuffer.h libSBRenc/include/sbr_encoder.h \
+ libAACenc/src/aacEnc_ram.h libAACenc/src/psy_data.h \
+ libAACenc/src/block_switch.h libAACenc/src/psy_const.h \
+ libAACenc/src/interface.h libAACenc/src/aacenc_tns.h \
+ libAACenc/src/psy_main.h libAACenc/src/psy_configuration.h \
+ libAACenc/src/aacenc_pns.h libAACenc/src/pnsparam.h \
+ libAACenc/src/qc_data.h libAACenc/src/dyn_bits.h \
+ libAACenc/src/adj_thr_data.h libAACenc/src/line_pe.h \
+ libAACenc/src/bitenc.h libAACenc/src/channel_map.h \
+ libAACenc/src/bit_cnt.h libAACenc/src/aacEnc_rom.h \
+ libFDK/include/FDK_tools_rom.h libFDK/include/FDK_core.h \
+ libSBRdec/include/../src/sbr_ram.h libSBRdec/include/sbrdecoder.h \
+ libSBRdec/include/../src/env_extr.h libSBRdec/include/../src/lpp_tran.h \
+ libFDK/include/qmf.h libFDK/include/FDK_tools_rom.h libFDK/include/dct.h \
+ libSBRdec/include/../src/psdec.h libSBRdec/include/../src/psdec_hybrid.h \
+ libSBRdec/include/../src/sbr_dec.h libSBRdec/include/../src/env_calc.h \
+ libSBRdec/include/../src/sbr_scale.h \
+ libSBRdec/include/../src/sbrdec_drc.h libAACenc/src/metadata_main.h
+
+libAACenc/include/aacenc_lib.h:
+
+libSYS/include/machine_type.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/assert.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/android/api-level.h:
+
+libSYS/include/FDK_audio.h:
+
+libSYS/include/machine_type.h:
+
+libSYS/include/genericStds.h:
+
+libAACenc/src/aacenc.h:
+
+libFDK/include/common_fix.h:
+
+libFDK/include/FDK_archdef.h:
+
+libFDK/include/fixmul.h:
+
+libFDK/include/x86/fixmul_x86.h:
+
+libFDK/include/abs.h:
+
+libFDK/include/x86/abs_x86.h:
+
+libFDK/include/clz.h:
+
+libFDK/include/x86/clz_x86.h:
+
+libFDK/include/fixmadd.h:
+
+libFDK/include/fixminmax.h:
+
+libFDK/include/cplx_mul.h:
+
+libFDK/include/common_fix.h:
+
+libFDK/include/scale.h:
+
+libSYS/include/genericStds.h:
+
+libFDK/include/../src/scale.cpp:
+
+libFDK/include/fixpoint_math.h:
+
+libMpegTPEnc/include/tpenc_lib.h:
+
+libMpegTPEnc/include/tp_data.h:
+
+libFDK/include/FDK_bitstream.h:
+
+libFDK/include/FDK_bitbuffer.h:
+
+libSBRenc/include/sbr_encoder.h:
+
+libAACenc/src/aacEnc_ram.h:
+
+libAACenc/src/psy_data.h:
+
+libAACenc/src/block_switch.h:
+
+libAACenc/src/psy_const.h:
+
+libAACenc/src/interface.h:
+
+libAACenc/src/aacenc_tns.h:
+
+libAACenc/src/psy_main.h:
+
+libAACenc/src/psy_configuration.h:
+
+libAACenc/src/aacenc_pns.h:
+
+libAACenc/src/pnsparam.h:
+
+libAACenc/src/qc_data.h:
+
+libAACenc/src/dyn_bits.h:
+
+libAACenc/src/adj_thr_data.h:
+
+libAACenc/src/line_pe.h:
+
+libAACenc/src/bitenc.h:
+
+libAACenc/src/channel_map.h:
+
+libAACenc/src/bit_cnt.h:
+
+libAACenc/src/aacEnc_rom.h:
+
+libFDK/include/FDK_tools_rom.h:
+
+libFDK/include/FDK_core.h:
+
+libSBRdec/include/../src/sbr_ram.h:
+
+libSBRdec/include/sbrdecoder.h:
+
+libSBRdec/include/../src/env_extr.h:
+
+libSBRdec/include/../src/lpp_tran.h:
+
+libFDK/include/qmf.h:
+
+libFDK/include/FDK_tools_rom.h:
+
+libFDK/include/dct.h:
+
+libSBRdec/include/../src/psdec.h:
+
+libSBRdec/include/../src/psdec_hybrid.h:
+
+libSBRdec/include/../src/sbr_dec.h:
+
+libSBRdec/include/../src/env_calc.h:
+
+libSBRdec/include/../src/sbr_scale.h:
+
+libSBRdec/include/../src/sbrdec_drc.h:
+
+libAACenc/src/metadata_main.h:

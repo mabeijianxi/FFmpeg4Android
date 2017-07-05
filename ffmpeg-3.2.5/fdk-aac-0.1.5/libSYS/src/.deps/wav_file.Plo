@@ -1,0 +1,23 @@
+libSYS/src/wav_file.lo: libSYS/src/wav_file.cpp libSYS/include/wav_file.h \
+ libSYS/include/genericStds.h libSYS/include/machine_type.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/assert.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/android/api-level.h \
+ libSYS/include/genericStds.h
+
+libSYS/include/wav_file.h:
+
+libSYS/include/genericStds.h:
+
+libSYS/include/machine_type.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/assert.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/android/api-level.h:
+
+libSYS/include/genericStds.h:

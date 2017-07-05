@@ -1,0 +1,120 @@
+libSYS/src/genericStds.lo: libSYS/src/genericStds.cpp \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/math.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/android/api-level.h \
+ /Users/jianxi/android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include-fixed/limits.h \
+ /Users/jianxi/android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include-fixed/syslimits.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/limits.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/limits.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/linux/limits.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/syslimits.h \
+ libSYS/include/genericStds.h libSYS/include/machine_type.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/assert.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/stdlib.h \
+ /Users/jianxi/android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include/stddef.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/string.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/malloc.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/xlocale.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/alloca.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/strings.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/types.h \
+ /Users/jianxi/android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include/stdint.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/stdint.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/machine/wchar_limits.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/linux/types.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm/types.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm-generic/types.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm-generic/int-ll64.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm/bitsperlong.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm-generic/bitsperlong.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/linux/posix_types.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/linux/stddef.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/linux/compiler.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm/posix_types.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm/posix_types_64.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm-generic/posix_types.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/sysmacros.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/memory.h \
+ /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/stdio.h \
+ /Users/jianxi/android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include/stdarg.h
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/math.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/android/api-level.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include-fixed/limits.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include-fixed/syslimits.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/limits.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/limits.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/linux/limits.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/syslimits.h:
+
+libSYS/include/genericStds.h:
+
+libSYS/include/machine_type.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/assert.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/stdlib.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include/stddef.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/string.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/malloc.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/xlocale.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/alloca.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/strings.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/types.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include/stdint.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/stdint.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/machine/wchar_limits.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/linux/types.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm/types.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm-generic/types.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm-generic/int-ll64.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm/bitsperlong.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm-generic/bitsperlong.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/linux/posix_types.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/linux/stddef.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/linux/compiler.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm/posix_types.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm/posix_types_64.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/asm-generic/posix_types.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/sysmacros.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/memory.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/stdio.h:
+
+/Users/jianxi/android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include/stdarg.h:

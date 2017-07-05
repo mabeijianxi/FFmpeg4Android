@@ -1,8 +1,8 @@
 libavcodec/libfdk-aacenc.o: libavcodec/libfdk-aacenc.c \
- /Users/jianxi/Downloads/code/ffmpeg-3.2.5/mylib/include/fdk-aac/aacenc_lib.h \
- /Users/jianxi/Downloads/code/ffmpeg-3.2.5/mylib/include/fdk-aac/machine_type.h \
- /Users/jianxi/Downloads/code/ffmpeg-3.2.5/mylib/include/fdk-aac/FDK_audio.h \
- /Users/jianxi/Downloads/code/ffmpeg-3.2.5/mylib/include/fdk-aac/genericStds.h \
+ /Users/jianxi/android/projects/FFmpeg2AndroidDemo/ffmpeg-3.2.5/fdk-aac-0.1.5/android/x86_64/include/fdk-aac/aacenc_lib.h \
+ /Users/jianxi/android/projects/FFmpeg2AndroidDemo/ffmpeg-3.2.5/fdk-aac-0.1.5/android/x86_64/include/fdk-aac/machine_type.h \
+ /Users/jianxi/android/projects/FFmpeg2AndroidDemo/ffmpeg-3.2.5/fdk-aac-0.1.5/android/x86_64/include/fdk-aac/FDK_audio.h \
+ /Users/jianxi/android/projects/FFmpeg2AndroidDemo/ffmpeg-3.2.5/fdk-aac-0.1.5/android/x86_64/include/fdk-aac/genericStds.h \
  libavutil/channel_layout.h libavutil/common.h libavutil/attributes.h \
  libavutil/macros.h libavutil/version.h libavutil/avconfig.h config.h \
  libavutil/intmath.h libavutil/common.h libavutil/mem.h libavutil/error.h \
