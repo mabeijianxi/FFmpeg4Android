@@ -1,4 +1,5 @@
 # FFmpeg2AndroidDemo
+这是一个编译 **Android** 下可用的 **FFmpeg** 的项目，内含代码代码示例。
 ## 工程内包含:
 > * FFmpeg 全平台编译脚本
 > * libx264 全平台编译脚本
