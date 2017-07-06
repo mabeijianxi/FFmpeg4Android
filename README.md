@@ -47,7 +47,7 @@
 
 3.  编译增强版，**cd** 进入 **ffmpeg** 目录，找到你所需要的架构的脚本，拖入命令行中执行即可，如果需要架构执行 **./jianxi_ffmpeg_build_all_more.sh** 即可在 **android_more** 目录下找到产物，此过程更长，执行前建议关闭其他无用进程。
 ## 运行本项目：
-由于我没把 FFmpeg 放入工程中，所以没法指定相对路径，你需要修改找到 **CMakeLists.txt**，把里面 **include_directories** 填上你 FFmpeg 源码目录
+由于我没把 FFmpeg 放入工程中，所以没法指定相对路径，你需要找到 **CMakeLists.txt**，把里面 **include_directories** 填上你 FFmpeg 源码目录
 
 ## 注意事项
 * 本项目脚本具有通用性，但是你要么修改下脚本里面定义的一些路径，要么保持我这个目录结构，不然将执行不成功。<br>
