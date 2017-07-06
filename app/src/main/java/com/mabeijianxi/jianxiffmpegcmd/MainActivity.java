@@ -14,10 +14,9 @@ public class MainActivity extends AppCompatActivity {
     static {
         System.loadLibrary("jxffmpegrun");
         System.loadLibrary("avcodec");
-        System.loadLibrary("avfilter");
+        System.loadLibrary("fdk-aac");
         System.loadLibrary("avformat");
         System.loadLibrary("avutil");
-        System.loadLibrary("swresample");
         System.loadLibrary("swscale");
     }
 
