@@ -1,3 +1,7 @@
+# Created by jianxi on 2017/6/4
+# https://github.com/mabeijianxi
+# mabeijianxi@gmail.com
+
 #!/bin/bash
 basepath=$(cd `dirname $0`; pwd)
 export TMPDIR=$basepath/ffmpegtemp

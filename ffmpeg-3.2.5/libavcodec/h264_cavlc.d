@@ -5,12 +5,13 @@ libavcodec/h264_cavlc.o: libavcodec/h264_cavlc.c libavcodec/internal.h \
  libavutil/macros.h libavcodec/avcodec.h libavutil/samplefmt.h \
  libavutil/avutil.h libavutil/common.h config.h libavutil/intmath.h \
  libavutil/mem.h libavutil/error.h libavutil/internal.h libavutil/timer.h \
- libavutil/log.h libavutil/cpu.h libavutil/dict.h libavutil/pixfmt.h \
- libavutil/libm.h libavutil/mathematics.h libavutil/attributes.h \
- libavutil/avutil.h libavutil/cpu.h libavutil/dict.h libavutil/frame.h \
- libavutil/buffer.h libavutil/samplefmt.h libavutil/log.h \
- libavutil/rational.h libavcodec/version.h libavutil/version.h \
- libavcodec/h264dec.h libavutil/intreadwrite.h libavutil/bswap.h \
+ libavutil/log.h libavutil/aarch64/timer.h libavutil/cpu.h \
+ libavutil/dict.h libavutil/pixfmt.h libavutil/libm.h \
+ libavutil/mathematics.h libavutil/attributes.h libavutil/avutil.h \
+ libavutil/cpu.h libavutil/dict.h libavutil/frame.h libavutil/buffer.h \
+ libavutil/samplefmt.h libavutil/log.h libavutil/rational.h \
+ libavcodec/version.h libavutil/version.h libavcodec/h264dec.h \
+ libavutil/intreadwrite.h libavutil/bswap.h libavutil/aarch64/bswap.h \
  libavutil/thread.h libavcodec/cabac.h libavcodec/put_bits.h \
  libavutil/avassert.h libavcodec/error_resilience.h libavcodec/me_cmp.h \
  libavcodec/thread.h libavcodec/h264_parse.h libavcodec/get_bits.h \

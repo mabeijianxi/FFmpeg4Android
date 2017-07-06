@@ -1,4 +1,4 @@
-prefix=./android_more/arm-v7a
+prefix=./android/arm64-v8a
 exec_prefix=${prefix}
 libdir=${prefix}/lib
 includedir=${prefix}/include

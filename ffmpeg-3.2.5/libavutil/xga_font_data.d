@@ -5,4 +5,5 @@ libavutil/xga_font_data.o: libavutil/xga_font_data.c \
  libavutil/version.h libavutil/avconfig.h libavutil/intmath.h \
  libavutil/mem.h libavutil/error.h libavutil/rational.h \
  libavutil/mathematics.h libavutil/intfloat.h libavutil/pixfmt.h \
- libavutil/cpu.h libavutil/dict.h libavutil/libm.h
+ libavutil/aarch64/timer.h libavutil/cpu.h libavutil/dict.h \
+ libavutil/libm.h

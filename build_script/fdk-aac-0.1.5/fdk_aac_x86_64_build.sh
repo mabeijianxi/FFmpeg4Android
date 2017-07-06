@@ -1,3 +1,7 @@
+# Created by jianxi on 2017/6/4
+# https://github.com/mabeijianxi
+# mabeijianxi@gmail.com
+
 NDK_HOME=/Users/jianxi/android/sdk/ndk-bundle
 ANDROID_API=android-21
 

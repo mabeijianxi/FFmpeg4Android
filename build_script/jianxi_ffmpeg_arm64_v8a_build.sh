@@ -1,4 +1,7 @@
-#!/bin/bash
+# Created by jianxi on 2017/6/4
+# https://github.com/mabeijianxi
+# mabeijianxi@gmail.com
+
 basepath=$(cd `dirname $0`; pwd)
 export TMPDIR=$basepath/ffmpegtemp
 # NDK的路径，根据自己的安装位置进行设置

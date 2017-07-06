@@ -6,4 +6,5 @@ libavformat/avlanguage.o: libavformat/avlanguage.c \
  libavutil/mem.h libavutil/error.h libavutil/avutil.h \
  libavutil/rational.h libavutil/mathematics.h libavutil/intfloat.h \
  libavutil/log.h libavutil/pixfmt.h libavutil/internal.h \
- libavutil/timer.h libavutil/cpu.h libavutil/dict.h libavutil/libm.h
+ libavutil/timer.h libavutil/aarch64/timer.h libavutil/cpu.h \
+ libavutil/dict.h libavutil/libm.h

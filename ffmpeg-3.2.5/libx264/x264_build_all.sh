@@ -1,3 +1,7 @@
+# Created by jianxi on 2017/6/4
+# https://github.com/mabeijianxi
+# mabeijianxi@gmail.com
+
  chmod a+x x264_*.sh
 
 # Build arm v6 v7a

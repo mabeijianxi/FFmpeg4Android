@@ -1,3 +1,6 @@
+# Created by jianxi on 2017/6/4
+# https://github.com/mabeijianxi
+# mabeijianxi@gmail.com
 
 NDK=/Users/jianxi/android/sdk/ndk-bundle
 

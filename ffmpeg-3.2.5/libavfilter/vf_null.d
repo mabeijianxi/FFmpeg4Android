@@ -4,9 +4,10 @@ libavfilter/vf_null.o: libavfilter/vf_null.c libavutil/internal.h \
  libavutil/version.h libavutil/avconfig.h libavutil/intmath.h \
  libavutil/mem.h libavutil/error.h libavutil/internal.h \
  libavutil/rational.h libavutil/mathematics.h libavutil/intfloat.h \
- libavutil/pixfmt.h libavutil/cpu.h libavutil/dict.h libavutil/libm.h \
- libavfilter/avfilter.h libavutil/attributes.h libavutil/avutil.h \
- libavutil/buffer.h libavutil/dict.h libavutil/frame.h libavutil/buffer.h \
+ libavutil/pixfmt.h libavutil/aarch64/timer.h libavutil/cpu.h \
+ libavutil/dict.h libavutil/libm.h libavfilter/avfilter.h \
+ libavutil/attributes.h libavutil/avutil.h libavutil/buffer.h \
+ libavutil/dict.h libavutil/frame.h libavutil/buffer.h \
  libavutil/samplefmt.h libavutil/log.h libavutil/samplefmt.h \
  libavutil/pixfmt.h libavutil/rational.h libavfilter/version.h \
  libavutil/version.h libavfilter/internal.h libavfilter/avfiltergraph.h \

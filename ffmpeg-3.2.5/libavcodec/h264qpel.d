@@ -5,8 +5,9 @@ libavcodec/h264qpel.o: libavcodec/h264qpel.c libavutil/attributes.h \
  libavutil/intmath.h libavutil/common.h libavutil/mem.h libavutil/error.h \
  libavutil/avutil.h libavutil/rational.h libavutil/mathematics.h \
  libavutil/intfloat.h libavutil/log.h libavutil/pixfmt.h \
- libavutil/internal.h libavutil/timer.h libavutil/cpu.h libavutil/dict.h \
- libavutil/libm.h libavutil/intreadwrite.h libavutil/bswap.h \
+ libavutil/internal.h libavutil/timer.h libavutil/aarch64/timer.h \
+ libavutil/cpu.h libavutil/dict.h libavutil/libm.h \
+ libavutil/intreadwrite.h libavutil/bswap.h libavutil/aarch64/bswap.h \
  libavcodec/bit_depth_template.c libavcodec/mathops.h \
  libavcodec/rnd_avg.h libavcodec/hpel_template.c libavcodec/pixels.h \
  libavcodec/pel_template.c

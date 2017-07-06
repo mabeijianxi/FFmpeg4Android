@@ -1,4 +1,4 @@
-prefix=./android_more/arm-v7a
+prefix=./android/arm64-v8a
 exec_prefix=${prefix}
 libdir=${prefix}/lib
 includedir=${prefix}/include
@@ -7,7 +7,7 @@ Name: libavcodec
 Description: FFmpeg codec library
 Version: 57.64.101
 Requires: 
-Requires.private: libswresample >= 2.3.100, libavutil >= 55.34.101
+Requires.private: libavutil >= 55.34.101
 Conflicts:
 Libs: -L${libdir}  -lavcodec 
 Libs.private: -lx264 -lfdk-aac -lm -lz -pthread
