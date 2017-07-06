@@ -12,7 +12,7 @@
 
 ## 脚本目录结构
 
-- ffmpeg
+- ffmpeg-3.2.5
 	* jianxi_ffmpeg_build_all.sh
 	* jianxi_ffmpeg_arm64_v8a_build.sh
 	* jianxi_ffmpeg_arm_build.sh
