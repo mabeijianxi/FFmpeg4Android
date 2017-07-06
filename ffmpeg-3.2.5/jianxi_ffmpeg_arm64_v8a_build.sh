@@ -109,7 +109,7 @@ build_one(){
 --disable-symver \
 --disable-stripping \
 --extra-cflags="$FF_EXTRA_CFLAGS  $FF_CFLAGS" \
---extra-ldflags="-L$PLATFORM/usr/lib -nostdlib -lc -lm -ldl -llog"
+--extra-ldflags=""
 }
 build_one
 

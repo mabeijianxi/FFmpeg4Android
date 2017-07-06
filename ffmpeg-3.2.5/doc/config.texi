@@ -67,14 +67,14 @@
 @c @set have-loongson2 no
 @c @set have-loongson3 no
 @c @set have-mmi no
-@c @set have-armv5te-external no
-@c @set have-armv6-external no
-@c @set have-armv6t2-external no
+@set have-armv5te-external yes
+@set have-armv6-external yes
+@set have-armv6t2-external yes
 @c @set have-armv8-external no
 @c @set have-neon-external no
-@c @set have-vfp-external no
-@c @set have-vfpv3-external no
-@c @set have-setend-external no
+@set have-vfp-external yes
+@set have-vfpv3-external yes
+@set have-setend-external yes
 @c @set have-altivec-external no
 @c @set have-dcbzl-external no
 @c @set have-ldbrx-external no
@@ -111,14 +111,14 @@
 @c @set have-loongson2-external no
 @c @set have-loongson3-external no
 @c @set have-mmi-external no
-@c @set have-armv5te-inline no
-@c @set have-armv6-inline no
-@c @set have-armv6t2-inline no
+@set have-armv5te-inline yes
+@set have-armv6-inline yes
+@set have-armv6t2-inline yes
 @c @set have-armv8-inline no
 @c @set have-neon-inline no
-@c @set have-vfp-inline no
-@c @set have-vfpv3-inline no
-@c @set have-setend-inline no
+@set have-vfp-inline yes
+@set have-vfpv3-inline yes
+@set have-setend-inline yes
 @c @set have-altivec-inline no
 @c @set have-dcbzl-inline no
 @c @set have-ldbrx-inline no
@@ -157,11 +157,11 @@
 @c @set have-mmi-inline no
 @c @set have-aligned-stack no
 @c @set have-fast-64bit no
-@c @set have-fast-clz no
+@set have-fast-clz yes
 @c @set have-fast-cmov no
-@set have-local-aligned-8 yes
-@set have-local-aligned-16 yes
-@set have-local-aligned-32 yes
+@c @set have-local-aligned-8 no
+@c @set have-local-aligned-16 no
+@c @set have-local-aligned-32 no
 @c @set have-simd-align-16 no
 @set have-atomics-gcc yes
 @c @set have-atomics-suncc no
@@ -170,18 +170,18 @@
 @set have-atomic-compare-exchange yes
 @c @set have-machine-rw-barrier no
 @c @set have-memorybarrier no
-@set have-mm-empty yes
+@c @set have-mm-empty no
 @c @set have-rdtsc no
 @set have-sarestart yes
 @set have-sem-timedwait yes
 @set have-sync-val-compare-and-swap yes
-@set have-cabs yes
+@c @set have-cabs no
 @c @set have-cexp no
 @set have-inline-asm yes
 @c @set have-symver no
 @set have-yasm yes
 @c @set have-bigendian no
-@c @set have-fast-unaligned no
+@set have-fast-unaligned yes
 @c @set have-alsa-asoundlib-h no
 @c @set have-altivec-h no
 @set have-arpa-inet-h yes
@@ -246,8 +246,8 @@
 @set have-ldexpf yes
 @set have-llrint yes
 @set have-llrintf yes
-@set have-log2 yes
-@set have-log2f yes
+@c @set have-log2 no
+@c @set have-log2f no
 @set have-log10f yes
 @set have-lrint yes
 @set have-lrintf yes
@@ -298,7 +298,7 @@
 @set have-mprotect yes
 @set have-nanosleep yes
 @c @set have-peeknamedpipe no
-@set have-posix-memalign yes
+@c @set have-posix-memalign no
 @c @set have-pthread-cancel no
 @set have-sched-getaffinity yes
 @c @set have-setconsoletextattribute no
@@ -316,18 +316,18 @@
 @set have-pthreads yes
 @c @set have-os2threads no
 @c @set have-w32threads no
-@c @set have-as-dn-directive no
+@set have-as-dn-directive yes
 @c @set have-as-func no
-@c @set have-as-object-arch no
-@c @set have-asm-mod-q no
+@set have-as-object-arch yes
+@set have-asm-mod-q yes
 @set have-attribute-may-alias yes
 @set have-attribute-packed yes
-@set have-ebp-available yes
-@set have-ebx-available yes
+@c @set have-ebp-available no
+@c @set have-ebx-available no
 @c @set have-gnu-as no
 @c @set have-gnu-windres no
 @c @set have-ibm-asm no
-@set have-inline-asm-direct-symbol-refs yes
+@c @set have-inline-asm-direct-symbol-refs no
 @set have-inline-asm-labels yes
 @set have-inline-asm-nonlocal-labels yes
 @set have-pragma-deprecated yes
@@ -336,7 +336,7 @@
 @set have-symver-gnu-asm yes
 @c @set have-vfp-args no
 @c @set have-xform-asm no
-@set have-xmm-clobbers yes
+@c @set have-xmm-clobbers no
 @c @set have-condition-variable-ptr no
 @set have-socklen-t yes
 @set have-struct-addrinfo yes
@@ -351,7 +351,7 @@
 @c @set have-struct-sockaddr-sa-len no
 @set have-struct-sockaddr-storage yes
 @c @set have-struct-stat-st-mtim-tv-nsec no
-@set have-struct-v4l2-frmivalenum-discrete yes
+@c @set have-struct-v4l2-frmivalenum-discrete no
 @set have-atomics-native yes
 @c @set have-dos-paths no
 @c @set have-dxva2-lib no
@@ -537,7 +537,7 @@
 @set config-dwt yes
 @set config-error-resilience yes
 @set config-faan yes
-@c @set config-fast-unaligned no
+@set config-fast-unaligned yes
 @set config-fft yes
 @set config-lsp yes
 @set config-lzo yes

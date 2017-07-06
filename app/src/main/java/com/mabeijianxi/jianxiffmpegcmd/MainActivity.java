@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("fdk-aac");
         System.loadLibrary("avformat");
         System.loadLibrary("avutil");
+        System.loadLibrary("avfilter");
+        System.loadLibrary("swresample");
         System.loadLibrary("swscale");
     }
 
