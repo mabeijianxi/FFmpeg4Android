@@ -52,4 +52,4 @@
 * 你如果从官网重新下载，那么你需要跟着我的博客获取网上其他教程对 **FFmpeg** 与 **libfdk-aac** 做些修改，不然也会出问题。
 
 ## 更多
-你可以访问我的一些相关文章来查阅我的思路,相关文章有:[编译Android下可用的FFmpeg\(包含libx264与libfdk-aac\)](http://blog.csdn.net/mabeijianxi/article/details/72888067)、[编译Android下可执行命令的FFmpeg](http://blog.csdn.net/mabeijianxi/article/details/72904694)
+你可以访问我的一些相关文章来查阅我的思路,相关文章有:[编译Android下可用的FFmpeg\(包含libx264与libfdk-aac\)](http://blog.csdn.net/mabeijianxi/article/details/74544879)、[编译Android下可执行命令的FFmpeg](http://blog.csdn.net/mabeijianxi/article/details/72904694)
