@@ -4,8 +4,8 @@
 > * FFmpeg 全平台编译脚本
 > * libx264 全平台编译脚本
 > * libfdk-aac 全平台编译脚本
-> * 已编译好的精简版 SO 库
-> * 已编译好的丰富版 SO 库
+> * 已编译好的精简版 SO 库（在 ffmpeg3.2.5/android 下）
+> * 已编译好的丰富版 SO 库（在 ffmpeg3.2.5/android_more 下
 > * cMake编译FFmpeg为可命令执行的脚本
 > * Android端命令执行FFmpeg的接口
 > * Android使用案例
