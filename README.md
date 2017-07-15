@@ -1,5 +1,5 @@
 # FFmpeg2AndroidDemo
-这是一个编译 **Android** 下可用的 **FFmpeg** 的项目，内含代码代码示例。
+这是一个编译 **Android** 下可用的 **FFmpeg** 的项目，内含代码示例。
 ## 工程内包含:
 > * FFmpeg 全平台编译脚本
 > * libx264 全平台编译脚本
@@ -51,7 +51,7 @@
 
 ## 注意事项
 * 本项目脚本具有通用性，但是你要么修改下脚本里面定义的一些路径，要么保持我这个目录结构，不然将执行不成功。<br>
-* 你如果从官网重新下载，那么你需要跟着我的博客获取网上其他教程对 **FFmpeg** 与 **libfdk-aac** 做些修改，不然也会出问题。
+* 你如果从官网重新下载，那么你需要跟着我的博客或者网上其他教程对 **FFmpeg** 与 **libfdk-aac** 做些修改，不然也会出问题。
 
 ## 更多
 你可以访问我的一些相关文章来查阅我的思路,相关文章有:[编译Android下可用的FFmpeg\(包含libx264与libfdk-aac\)](http://blog.csdn.net/mabeijianxi/article/details/74544879)、[编译Android下可执行命令的FFmpeg](http://blog.csdn.net/mabeijianxi/article/details/72904694)
