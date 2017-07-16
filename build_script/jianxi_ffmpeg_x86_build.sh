@@ -89,14 +89,14 @@ build_one(){
 --enable-demuxer=h264 \
 --enable-demuxer=aac \
 --enable-demuxer=avi \
+--enable-demuxer=mpegts \
 --enable-demuxer=mpc \
 --enable-demuxer=mov \
 --disable-parsers \
 --enable-parser=aac \
 --enable-parser=ac3 \
 --enable-parser=h264 \
---disable-protocols \
---enable-protocol=file \
+--enable-protocols \
 --enable-zlib \
 --enable-avfilter \
 --disable-outdevs \

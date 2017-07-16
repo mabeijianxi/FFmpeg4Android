@@ -5,9 +5,8 @@ libavformat/mov.o: libavformat/mov.c libavutil/attributes.h \
  libavutil/version.h libavutil/avconfig.h libavutil/intmath.h \
  libavutil/mem.h libavutil/error.h libavutil/internal.h \
  libavutil/rational.h libavutil/mathematics.h libavutil/intfloat.h \
- libavutil/pixfmt.h libavutil/aarch64/timer.h libavutil/cpu.h \
- libavutil/dict.h libavutil/libm.h libavutil/intreadwrite.h \
- libavutil/bswap.h libavutil/aarch64/bswap.h libavutil/intfloat.h \
+ libavutil/pixfmt.h libavutil/cpu.h libavutil/dict.h libavutil/libm.h \
+ libavutil/intreadwrite.h libavutil/bswap.h libavutil/intfloat.h \
  libavutil/mathematics.h libavutil/time_internal.h libavutil/avassert.h \
  libavutil/avstring.h libavutil/dict.h libavutil/display.h \
  libavutil/opt.h libavutil/samplefmt.h libavutil/aes.h \

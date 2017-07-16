@@ -76,7 +76,7 @@ build_one(){
 --enable-decoders \
 --enable-demuxers \
 --enable-parsers \
---enable-protocol=file \
+--enable-protocols \
 --enable-zlib \
 --enable-avfilter \
 --disable-outdevs \

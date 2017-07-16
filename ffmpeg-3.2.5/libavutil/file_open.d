@@ -4,5 +4,4 @@ libavutil/file_open.o: libavutil/file_open.c config.h \
  libavutil/version.h libavutil/avconfig.h libavutil/intmath.h \
  libavutil/mem.h libavutil/error.h libavutil/rational.h \
  libavutil/mathematics.h libavutil/intfloat.h libavutil/pixfmt.h \
- libavutil/aarch64/timer.h libavutil/cpu.h libavutil/dict.h \
- libavutil/libm.h
+ libavutil/cpu.h libavutil/dict.h libavutil/libm.h

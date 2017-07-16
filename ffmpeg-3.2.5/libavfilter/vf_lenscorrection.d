@@ -3,11 +3,10 @@ libavfilter/vf_lenscorrection.o: libavfilter/vf_lenscorrection.c \
  libavutil/avutil.h libavutil/common.h libavutil/macros.h \
  libavutil/version.h libavutil/avconfig.h config.h libavutil/intmath.h \
  libavutil/mem.h libavutil/error.h libavutil/internal.h libavutil/timer.h \
- libavutil/log.h libavutil/aarch64/timer.h libavutil/cpu.h \
- libavutil/dict.h libavutil/pixfmt.h libavutil/libm.h \
- libavutil/intfloat.h libavutil/mathematics.h libavutil/samplefmt.h \
- libavutil/intreadwrite.h libavutil/bswap.h libavutil/aarch64/bswap.h \
- libavutil/attributes.h libavutil/pixdesc.h libavfilter/avfilter.h \
+ libavutil/log.h libavutil/cpu.h libavutil/dict.h libavutil/pixfmt.h \
+ libavutil/libm.h libavutil/intfloat.h libavutil/mathematics.h \
+ libavutil/samplefmt.h libavutil/intreadwrite.h libavutil/bswap.h \
+ libavutil/pixdesc.h libavfilter/avfilter.h libavutil/attributes.h \
  libavutil/avutil.h libavutil/buffer.h libavutil/dict.h libavutil/frame.h \
  libavutil/buffer.h libavutil/log.h libavutil/samplefmt.h \
  libavutil/pixfmt.h libavutil/rational.h libavfilter/version.h \

@@ -3,12 +3,10 @@ libavcodec/h264_cabac.o: libavcodec/h264_cabac.c libavutil/attributes.h \
  libavutil/attributes.h libavutil/macros.h libavutil/version.h \
  libavutil/avconfig.h config.h libavutil/intmath.h libavutil/mem.h \
  libavutil/error.h libavutil/internal.h libavutil/timer.h libavutil/log.h \
- libavutil/aarch64/timer.h libavutil/cpu.h libavutil/dict.h \
- libavutil/pixfmt.h libavutil/libm.h libavutil/intfloat.h \
- libavutil/mathematics.h libavutil/rational.h libavutil/timer.h \
- libavcodec/cabac.h libavcodec/put_bits.h libavutil/intreadwrite.h \
- libavutil/bswap.h libavutil/aarch64/bswap.h libavcodec/cabac_functions.h \
- libavcodec/aarch64/cabac.h libavutil/internal.h libavcodec/cabac.h \
+ libavutil/cpu.h libavutil/dict.h libavutil/pixfmt.h libavutil/libm.h \
+ libavutil/intfloat.h libavutil/mathematics.h libavutil/rational.h \
+ libavutil/timer.h libavcodec/cabac.h libavcodec/put_bits.h \
+ libavutil/intreadwrite.h libavutil/bswap.h libavcodec/cabac_functions.h \
  libavcodec/internal.h libavutil/buffer.h libavutil/channel_layout.h \
  libavutil/mathematics.h libavutil/pixfmt.h libavcodec/avcodec.h \
  libavutil/samplefmt.h libavutil/avutil.h libavutil/cpu.h \

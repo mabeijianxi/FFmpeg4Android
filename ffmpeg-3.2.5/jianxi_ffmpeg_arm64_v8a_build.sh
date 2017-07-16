@@ -2,7 +2,6 @@
 # https://github.com/mabeijianxi
 # mabeijianxi@gmail.com
 
-#!/bin/bash
 basepath=$(cd `dirname $0`; pwd)
 export TMPDIR=$basepath/ffmpegtemp
 # NDK的路径，根据自己的安装位置进行设置
@@ -91,12 +90,12 @@ build_one(){
 --enable-demuxer=avi \
 --enable-demuxer=mpc \
 --enable-demuxer=mov \
+--enable-demuxer=mpegts \
 --disable-parsers \
 --enable-parser=aac \
 --enable-parser=ac3 \
 --enable-parser=h264 \
---disable-protocols \
---enable-protocol=file \
+--enable-protocols \
 --enable-zlib \
 --enable-avfilter \
 --disable-outdevs \
