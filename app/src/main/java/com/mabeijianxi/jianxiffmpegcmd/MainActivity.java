@@ -12,14 +12,14 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     static {
-        System.loadLibrary("jxffmpegrun");
-        System.loadLibrary("avcodec");
-        System.loadLibrary("fdk-aac");
-        System.loadLibrary("avformat");
         System.loadLibrary("avutil");
-        System.loadLibrary("avfilter");
-        System.loadLibrary("swresample");
+        System.loadLibrary("fdk-aac");
+        System.loadLibrary("avcodec");
+        System.loadLibrary("avformat");
         System.loadLibrary("swscale");
+        System.loadLibrary("swresample");
+        System.loadLibrary("avfilter");
+        System.loadLibrary("jxffmpegrun");
     }
 
     private ProgressBar pb;
