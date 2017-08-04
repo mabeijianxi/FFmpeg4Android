@@ -1,5 +1,6 @@
 # FFmpeg2AndroidDemo
-This is a compilation of **Android** available under the **FFmpeg** project, containing code examples.
+This is a compilation of **Android** available under the **FFmpeg** project, containing code examples.<br>
+
 [中文说明](https://github.com/mabeijianxi/FFmpeg4Android/blob/master/README_CN.md)
 ## The project includes:
 > * FFmpeg Full Platform Compilation Script

@@ -1,5 +1,5 @@
 # FFmpeg2AndroidDemo
-这是一个编译 **Android** 下可用的 **FFmpeg** 的项目，内含代码示例。
+这是一个编译 **Android** 下可用的 **FFmpeg** 的项目，内含代码示例。<br>
 
 [English description](https://github.com/mabeijianxi/FFmpeg4Android)
 
