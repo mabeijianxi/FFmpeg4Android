@@ -1,0 +1,120 @@
+libSYS/src/genericStds.lo: libSYS/src/genericStds.cpp \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/math.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/android/api-level.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include-fixed/limits.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include-fixed/syslimits.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/limits.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/limits.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/linux/limits.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/syslimits.h \
+ libSYS/include/genericStds.h libSYS/include/machine_type.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/assert.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/stdlib.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include/stddef.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/string.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/malloc.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/xlocale.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/alloca.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/strings.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/types.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include/stdint.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/stdint.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/machine/wchar_limits.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/linux/types.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm/types.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm-generic/types.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm-generic/int-ll64.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm/bitsperlong.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm-generic/bitsperlong.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/linux/posix_types.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/linux/stddef.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/linux/compiler.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm/posix_types.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm/posix_types_64.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm-generic/posix_types.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/sysmacros.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/memory.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/stdio.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include/stdarg.h
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/math.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/android/api-level.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include-fixed/limits.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include-fixed/syslimits.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/limits.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/limits.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/linux/limits.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/syslimits.h:
+
+libSYS/include/genericStds.h:
+
+libSYS/include/machine_type.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/assert.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/stdlib.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include/stddef.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/string.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/malloc.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/xlocale.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/alloca.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/strings.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/types.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include/stdint.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/stdint.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/machine/wchar_limits.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/linux/types.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm/types.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm-generic/types.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm-generic/int-ll64.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm/bitsperlong.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm-generic/bitsperlong.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/linux/posix_types.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/linux/stddef.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/linux/compiler.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm/posix_types.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm/posix_types_64.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/asm-generic/posix_types.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/sysmacros.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/memory.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/stdio.h:
+
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x/include/stdarg.h:

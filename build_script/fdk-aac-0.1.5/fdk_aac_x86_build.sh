@@ -2,21 +2,19 @@
 # https://github.com/mabeijianxi
 # mabeijianxi@gmail.com
 
-NDK_HOME=/Users/jianxi/android/sdk/ndk-bundle
-ANDROID_API=android-14
+echo start $0 .........
 
-SYSROOT=$NDK_HOME/platforms/$ANDROID_API/arch-x86
-
-ANDROID_BIN=$NDK_HOME/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin
-
-CROSS_COMPILE=${ANDROID_BIN}/i686-linux-android-
+. ../settings.sh
 
 basepath=$(cd `dirname $0`; pwd)
 
-echo "$basepath"
 
+NDK_HOME=$ANDROID_NDK_ROOT_PATH
+SYSROOT=$NDK_HOME/platforms/$PLATFORM_VERSION/arch-x86
+ANDROID_BIN=$NDK_HOME/toolchains/x86-$NDK_TOOLCHAIN_ABI_VERSION/prebuilt/$TOOLCHAIN_PLATFORM/bin
+CROSS_COMPILE=${ANDROID_BIN}/i686-linux-android-
 
-CPU=x86
+PREFIX=$basepath/$BUILD_FOLDER_NAME/x86
 
 
 CFLAGS=" "
@@ -39,12 +37,8 @@ export LD="${CROSS_COMPILE}ld"
 
 export AS="${CROSS_COMPILE}gcc"
 
+pushd ../../fdk-aac-0.1.5/
 
-./configure $FLAGS \
---enable-pic \
---enable-strip \
---prefix=${basepath}/android/$CPU
+. $basepath/default_build_configure.sh
 
-make clean
-make -j16
-make install
+popd

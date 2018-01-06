@@ -1,29 +1,21 @@
 
-NDK=/Users/jianxi/android/sdk/ndk-bundle
+echo start $0 .........
 
-PLATFORM=$NDK/platforms/android-14/arch-x86/
-TOOLCHAIN=$NDK/toolchains/x86-4.9/prebuilt/darwin-x86_64
-PREFIX=./android/x86
+. ../settings.sh
 
-function build_one
-{
-./configure \
---prefix=$PREFIX \
---disable-shared \
---enable-static \
---disable-asm \
---enable-pic \
---enable-strip \
---host=i686-linux \
---cross-prefix=$TOOLCHAIN/bin/i686-linux-android- \
---sysroot=$PLATFORM \
---extra-cflags="-Os -fpic" \
---extra-ldflags="" \
+basepath=$(cd `dirname $0`; pwd)
 
-make clean
-make
-make install
-}
 
-build_one
+pushd ../../libx264
 
+NDK=$ANDROID_NDK_ROOT_PATH
+
+PLATFORM=$NDK/platforms/$PLATFORM_VERSION/arch-x86
+TOOLCHAIN=$NDK/toolchains/x86-$NDK_TOOLCHAIN_ABI_VERSION/prebuilt/$TOOLCHAIN_PLATFORM
+PREFIX=$basepath/$BUILD_FOLDER_NAME/x86
+CONFIGURE_HOST=i686-linux
+CONFIGURE_CROSS_PREFIX=$TOOLCHAIN/bin/i686-linux-android-
+
+. $basepath/default_build_configure.sh
+
+popd
