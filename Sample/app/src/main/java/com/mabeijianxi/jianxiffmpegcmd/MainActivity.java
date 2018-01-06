@@ -1,7 +1,6 @@
 package com.mabeijianxi.jianxiffmpegcmd;
 
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
@@ -37,12 +36,12 @@ public class MainActivity extends AppCompatActivity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                String basePath = Environment.getExternalStorageDirectory().getPath();
+                String basePath = getExternalFilesDir(null).getPath();
 
                 String cmd_transcoding = String.format("ffmpeg -i %s -c:v libx264 %s  -c:a libfdk_aac %s",
-                        basePath+"/"+"girl.mp4",
+                        basePath+"/"+"test_video.mp4",
                         "-crf 40",
-                        basePath+"/"+"my_girl.mp4");
+                        basePath+"/"+"output.mp4");
                 int i = jxFFmpegCMDRun(cmd_transcoding);
                 new Handler(Looper.getMainLooper()).post(new Runnable() {
                     @Override

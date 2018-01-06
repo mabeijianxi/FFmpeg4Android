@@ -294,7 +294,7 @@ set_target_properties(
 endif(${ANDROID_ABI} STREQUAL "x86_64")
 
 include_directories(
-    /Users/jianxi/android/projects/FFmpeg2AndroidDemo/ffmpeg-3.2.5/
+    ../../ffmpeg-3.2.5/
 
 )
 # Searches for a specified prebuilt library and stores the path as a

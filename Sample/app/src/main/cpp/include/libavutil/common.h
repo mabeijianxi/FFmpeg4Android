@@ -106,7 +106,7 @@
 #   include "intmath.h"
 #endif
 
-/* Pull in unguarded fallback defines at the recordEnd of this file. */
+/* Pull in unguarded fallback defines at the end of this file. */
 #include "common.h"
 
 #ifndef av_log2
