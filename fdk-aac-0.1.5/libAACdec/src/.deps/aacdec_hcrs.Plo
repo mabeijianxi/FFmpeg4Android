@@ -1,10 +1,10 @@
 libAACdec/src/aacdec_hcrs.lo: libAACdec/src/aacdec_hcrs.cpp \
  libAACdec/src/aacdec_hcrs.h libFDK/include/FDK_bitstream.h \
  libFDK/include/FDK_bitbuffer.h libSYS/include/machine_type.h \
- /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/assert.h \
- /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h \
- /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h \
- /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/android/api-level.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/assert.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/android/api-level.h \
  libSYS/include/genericStds.h libSYS/include/machine_type.h \
  libAACdec/src/aacdec_hcr_types.h libAACdec/src/overlapadd.h \
  libFDK/include/common_fix.h libFDK/include/FDK_archdef.h \
@@ -36,13 +36,13 @@ libFDK/include/FDK_bitbuffer.h:
 
 libSYS/include/machine_type.h:
 
-/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/assert.h:
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/assert.h:
 
-/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h:
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h:
 
-/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h:
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h:
 
-/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/android/api-level.h:
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/android/api-level.h:
 
 libSYS/include/genericStds.h:
 

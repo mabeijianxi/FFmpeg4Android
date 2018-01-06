@@ -1,28 +1,21 @@
 
-NDK=/Users/jianxi/android/sdk/ndk-bundle
+echo start $0 .........
 
-PLATFORM=$NDK/platforms/android-14/arch-mips/
-TOOLCHAIN=$NDK/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64
-PREFIX=./android/mips
+. ../settings.sh
 
-function build_one
-{
-./configure \
---prefix=$PREFIX \
---disable-shared \
---enable-static \
---disable-asm \
---enable-pic \
---enable-strip \
---sysroot=$PLATFORM \
---host=mipsel-linux \
---cross-prefix=$TOOLCHAIN/bin/mipsel-linux-android- \
---sysroot=$PLATFORM \
---extra-cflags="-Os -fpic" \
+basepath=$(cd `dirname $0`; pwd)
 
-make clean
-make
-make install
-}
 
-build_one
+pushd ../../libx264
+
+NDK=$ANDROID_NDK_ROOT_PATH
+
+PLATFORM=$NDK/platforms/$PLATFORM_VERSION/arch-mips
+TOOLCHAIN=$NDK/toolchains/mipsel-linux-android-$NDK_TOOLCHAIN_ABI_VERSION/prebuilt/$TOOLCHAIN_PLATFORM
+PREFIX=$basepath/$BUILD_FOLDER_NAME/mips
+CONFIGURE_HOST=mipsel-linux
+CONFIGURE_CROSS_PREFIX=$TOOLCHAIN/bin/mipsel-linux-android-
+
+. $basepath/default_build_configure.sh
+
+popd

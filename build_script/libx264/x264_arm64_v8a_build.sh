@@ -1,28 +1,21 @@
 
-NDK=/Users/jianxi/android/sdk/ndk-bundle
+echo start $0 .........
 
-PLATFORM=$NDK/platforms/android-21/arch-arm64/
-TOOLCHAIN=$NDK/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64
-PREFIX=./android/arm64-v8a
+. ../settings.sh
 
-function build_one
-{
-./configure \
---prefix=$PREFIX \
---disable-shared \
---enable-static \
---enable-pic \
---enable-strip \
---host=aarch64-linux \
---cross-prefix=$TOOLCHAIN/bin/aarch64-linux-android- \
---sysroot=$PLATFORM \
---extra-cflags="-Os -fpic" \
---extra-ldflags="" \
+basepath=$(cd `dirname $0`; pwd)
 
-$ADDITIONAL_CONFIGURE_FLAG
-make clean
-make -j4
-make install
-}
 
-build_one
+pushd ../../libx264
+
+NDK=$ANDROID_NDK_ROOT_PATH
+
+PLATFORM=$NDK/platforms/$PLATFORM_VERSION/arch-arm64
+TOOLCHAIN=$NDK/toolchains/aarch64-linux-android-$NDK_TOOLCHAIN_ABI_VERSION/prebuilt/$TOOLCHAIN_PLATFORM
+PREFIX=$basepath/$BUILD_FOLDER_NAME/arm64-v8a
+CONFIGURE_HOST=aarch64-linux
+CONFIGURE_CROSS_PREFIX=$TOOLCHAIN/bin/aarch64-linux-android-
+
+. $basepath/default_build_configure.sh
+
+popd

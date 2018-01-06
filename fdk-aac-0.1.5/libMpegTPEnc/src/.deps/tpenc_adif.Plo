@@ -1,9 +1,9 @@
 libMpegTPEnc/src/tpenc_adif.lo: libMpegTPEnc/src/tpenc_adif.cpp \
  libMpegTPEnc/src/tpenc_adif.h libSYS/include/machine_type.h \
- /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/assert.h \
- /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h \
- /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h \
- /Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/android/api-level.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/assert.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h \
+ /mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/android/api-level.h \
  libFDK/include/FDK_bitstream.h libFDK/include/FDK_bitbuffer.h \
  libSYS/include/genericStds.h libSYS/include/machine_type.h \
  libMpegTPDec/include/tp_data.h libSYS/include/FDK_audio.h \
@@ -14,13 +14,13 @@ libMpegTPEnc/src/tpenc_adif.h:
 
 libSYS/include/machine_type.h:
 
-/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/assert.h:
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/assert.h:
 
-/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h:
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h:
 
-/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h:
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h:
 
-/Users/jianxi/android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include/android/api-level.h:
+/mnt/d/develop/android/dev-tools/sdk/android-ndk-r15c/platforms/android-21/arch-x86_64/usr/include/android/api-level.h:
 
 libFDK/include/FDK_bitstream.h:
 
